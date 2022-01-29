@@ -163,8 +163,8 @@ gura.sendMessage(from, pesan, tipe, { quoted: { key: { fromMe: false, participan
 
 //●●●●●●●●●●●●●●●●●●●●●● FAKE ●●●●●●●●●●●●●●●●●●●●●●
 
-const fakestatus = (teks) => { gura.sendMessage(from, teks, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "Subscribe My YT guraxD", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('thumbnail.jpg'), "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } }} }) }
-const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "Subscribe My YT guraxD", 'jpegThumbnail': fs.readFileSync('thumbnail.jpg')}}}
+const fakestatus = (teks) => { gura.sendMessage(from, teks, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "Follow Instagram @_daaa_1", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('thumbnail.jpg'), "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } }} }) }
+const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "Follow Instagram @_daaa_1", 'jpegThumbnail': fs.readFileSync('thumbnail.jpg')}}}
 
 //●●●●●●●●●●●●●●●●●●●●●● BUTTON ●●●●●●●●●●●●●●●●●●●●●●
 
@@ -231,53 +231,27 @@ case 'menu':
 const menunya = `
 Hi Kak ${pushname} Saya ${botName}
 ➤ *List Menu GuraBotz*➤
-┃❒
-┃き*.leave*
-┃き*.linkgroup*
-┃き*.antilink*
-┃き*.welcome*
-┃き*.promote*
-┃き*.demote*
-┃き*.add*
-┃き*.kick*
-┃き*.closegc*
-┃き*.opengc*
-┃き*.chat 62xnxx|(pesannya)*
+┃❒Group
+┃き *.leave*
+┃き *.linkgroup*
+┃き *.antilink*
+┃き *.welcome*
+┃き *.promote*
+┃き *.demote*
+┃き *.add*
+┃き *.kick*
+┃き *.closegc*
+┃き *.opengc*
+┃き *.hidetag*
+┃❒Tools 
+┃き *.sticker*
+┃き *.attp*
+┃き *.owner*
 ┃
 ┃𝑵𝒐𝒕𝒆 : 𝑱𝒂𝒏𝒈𝒂𝒏 𝑺𝒑𝒂𝒎!!, 
 ┃𝑱𝒊𝒌𝒂 𝑭𝒊𝒕𝒖𝒓 𝑻𝒊𝒅𝒂𝒌 𝑾𝒐𝒓𝒌 𝑳𝒂𝒑𝒐𝒓𝒌𝒂𝒏 𝑲𝒆 𝑶𝒘𝒏𝒆𝒓, 
 ┃𝑲𝒆𝒕𝒊𝒌 .𝒐𝒘𝒏𝒆𝒓 𝑼𝒏𝒕𝒖𝒌 𝑵𝒐𝒎𝒐𝒓 𝑶𝒘𝒏𝒆𝒓.
-┗━━━━━━━ 
-
-┏ *List Menu Bot*
-┃
-┣${prefix}leave
-┃
-┣${prefix}linkgroup
-┃
-┣${prefix}antilink
-┃
-┣${prefix}welcome
-┃
-┣${prefix}promote
-┃
-┣${prefix}add
-┃
-┣${prefix}kick
-┃
-┣${prefix}opengc
-┃
-┣${prefix}closegc
-┃
-┣${prefix}hidetag
-┃
-┣${prefix}sticker
-┃
-┣${prefix}attp
-┃
-┣${prefix}owner
-┃
-┗ *more?tambahin sendiri*`
+┗━━━━━━━ `
 gura.sendMessage(from, mypp, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg",  "caption": faketeks,  "jpegThumbnail": fs.readFileSync('thumbnail.jpg') } } }, caption: menunya })
 break
 //●●●●●●●●●●●●●●●●●●●●●● GROUP MENU●●●●●●●●●●●●●●●●●●●●●●
@@ -463,7 +437,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, markon, `Jangan Lupa SUBSCRIBE YT : guraXD`)
+costum(buffer, sticker, markon, `*Jangan Lupa Follow IG @_daaa_1*`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
